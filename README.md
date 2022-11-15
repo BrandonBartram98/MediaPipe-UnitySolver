@@ -125,9 +125,8 @@ public struct Face
 
     public struct Eyes
     {
-        // Wideness of left eye
+        // Wideness of eyes
         public float Left;
-        /// Wideness of right eye
         public float Right;
     }
 ```

@@ -92,8 +92,6 @@ public class MediaPipePoseSolver : MonoBehaviour
     {
         float invert = side == "right" ? 1f : -1f;
 
-        print(invert);
-
         arm.Upper.z *= -2.3f * invert;
 
         arm.Upper.y *= MathF.PI * invert;
@@ -172,7 +170,7 @@ public class MediaPipePoseSolver : MonoBehaviour
         return (hips, spine);
     }
 
-    private static void RigHips(ref Hips hips, ref Vector3 spine)
+    private void RigHips(ref Hips hips, ref Vector3 spine)
     {
         // Convert normalized values to radians
         hips.Rotation *= MathF.PI;

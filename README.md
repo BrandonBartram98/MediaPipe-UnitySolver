@@ -11,7 +11,7 @@ NOTE: Pose solver needs a lot of work, not in a usable state. 🛠
 
 ### Pose
 ```c#
-// Give NormalizedLandmarkList from calculator as parameter for MediaPipePoseSolver solve functiom
+// Give NormalizedLandmarkList from calculator as parameter for MediaPipePoseSolver solve function
 var pose = _poseSolver.Solve(list);
 
 SetEuler(LeftHand, pose.LeftArm.Hand, 1f, 0.3f);
@@ -80,7 +80,7 @@ public struct Hips
 ```
 ### Face
 ```c#
-// Give NormalizedLandmarkList from calculator as parameter for MediaPipeFaceSolver solve functiom
+// Give NormalizedLandmarkList from calculator as parameter for MediaPipeFaceSolver solve function
 var face = _faceSolver.Solve(list);
 ```
 #### Face Output

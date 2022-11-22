@@ -1,4 +1,4 @@
-# 🧮 MediaPipe-UnitySolver
+# MediaPipe-UnitySolver
 ### Face, Pose, and Hand Tracking Solver for MediaPipeUnity Plugin
 
 Library converting [Moetion](https://github.com/vignetteapp/Moetion) (Inspired by [KalidoKit](https://github.com/yeemachine/kalidokit)) types to work within Unity for use with [MediaPipeUnityPlugin](https://github.com/homuler/MediaPipeUnityPlugin) landmark outputs.

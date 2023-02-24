@@ -7,7 +7,7 @@ UnitySolver is composed of 3 classes for Face and Pose solving. Hand solving to 
 
 ## 🦆 Usage
 
-NOTE: Pose solver needs a lot of work, not in a usable state with Mixamo/RPM rigs. 🛠
+### NOTE: Pose solver needs a lot of work, not in a usable state with Mixamo/RPM rigs. 🛠
 
 ### Pose
 ```c#
